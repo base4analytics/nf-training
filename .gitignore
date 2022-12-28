@@ -2,5 +2,5 @@ work
 .nextflow*
 results*
 data/*
+output/*
 .DS_Store
-test.nf
