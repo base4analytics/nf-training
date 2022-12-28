@@ -38,7 +38,12 @@ tasks:
 #       unset JAVA_TOOL_OPTIONS
 #       clear
 
-    
+  - name: Download data
+    command: |
+      wget --content-disposition https://ndownloader.figshare.com/files/28531743
+      tar -xvf data.tar.gz 
+
+
 vscode:
   extensions: # based on nf-core.nf-core-extensionpack
     - codezombiech.gitignore # Language support for .gitignore files
