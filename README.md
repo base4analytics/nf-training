@@ -2,6 +2,7 @@
 
 Training material for [workflows-nextflow](https://carpentries-incubator.github.io/workflows-nextflow/)
 
+benbfly - I have added a gitpod config (.gitpod.yml) based on https://github.com/seqeralabs/nf-training-public
 
 ## Data
 
